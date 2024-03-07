@@ -1,34 +1,18 @@
 import java.util.Scanner;
 
-
-
 public class Star {
-
-
 
 	public static void main(String[] args) {
 
-
-
 		int num;
-
-
 
 		Scanner sc = new Scanner(System.in);
 
-
-
 		// 입력함수호출
-
-
 
 		num = inputInt(sc);
 
-
-
 		// 출력함수호출
-
-
 
 		if (num == 1) {
 
@@ -58,7 +42,7 @@ public class Star {
 
 	}
 
-	//입력함수
+	// 입력함수
 
 	public static int inputInt(Scanner sc) {
 
@@ -68,7 +52,7 @@ public class Star {
 
 	}
 
-	//출력함수
+	// 출력함수
 
 	public static void disp1() {
 
@@ -86,11 +70,7 @@ public class Star {
 
 	}
 
-
-
 	public static void disp2() {
-
-
 
 		for (int i = 1; i <= 3; i++) {
 
@@ -105,8 +85,6 @@ public class Star {
 		}
 
 	}
-
-
 
 	public static void disp3() {
 
@@ -132,8 +110,6 @@ public class Star {
 
 	}
 
-
-
 	public static void disp4() {
 
 		for (int i = 0; i < 3; i++) {
@@ -155,8 +131,6 @@ public class Star {
 		}
 
 	}
-
-
 
 	public static void disp5() {
 
@@ -202,19 +176,13 @@ public class Star {
 
 	}
 
-
-
 	public static void disp6() {
 
 		System.out.println("홀수를 입력해주세요");
 
-
-
 		Scanner sc;
 
 		sc = new Scanner(System.in);
-
-
 
 		int num = sc.nextInt();
 
@@ -261,4 +229,3 @@ public class Star {
 	}
 
 }
-
